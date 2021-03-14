@@ -1,0 +1,24 @@
+{
+  "name": "upload-images",
+  "version": "1.0.0",
+  "description": "Node.js upload images.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon ./src/server.js"
+  },
+  "keywords": [
+    "node",
+    "upload",
+    "multiple",
+    "files"
+  ],
+  "author": "Pavlina",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.0.1",
+    "nodemon": "^2.0.7"
+  }
+}
